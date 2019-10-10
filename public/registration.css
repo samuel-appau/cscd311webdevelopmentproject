@@ -1,0 +1,85 @@
+#myform{
+    height:600px;
+    width:800px;
+    margin-top:100px;
+    margin-left:420px;
+    border:1.2px solid dimgray;
+}
+
+#text-box{
+    height:30px;
+    width:350px;
+    margin-left:30px;
+    margin-top:60px;
+
+
+    
+}
+#text-box1{
+    height:30px;
+    width:350px;
+    margin-left:30px;
+    margin-top:60px;
+
+
+    
+}
+#text-box2{
+    height:30px;
+    width:350px;
+    margin-left:30px;
+    margin-top:60px;
+
+
+    
+}
+#HALL{
+    height:30px;
+    width:350px;
+    margin-left:30px;
+    margin-top:60px;
+
+}
+
+#combo{
+    height:30px;
+    width:350px;
+    margin-left:30px;
+    margin-top:60px;
+}
+
+#combo1{
+    height:30px;
+    width:350px;
+    margin-left:30px;
+    margin-top:60px;
+}
+#combo2{
+    height:30px;
+    width:350px;
+    margin-left:30px;
+    margin-top:60px;
+}
+#save{
+    height:30px;
+    width:350px;
+    margin-left:220px;
+    margin-top:60px;
+    
+}
+
+#display{
+    height:30px;
+    width:350px;
+    margin-left:220px;
+    margin-top:60px;
+
+    
+}
+
+#cp{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:100px;
+    margin-left:800px;
+    
+}

@@ -1,0 +1,102 @@
+#box-space{
+    margin-left:-20px;
+    margin-top:-14px;
+    width:350px;
+    height:600px;
+    background-color:blue;
+    
+    }
+    
+    
+    .table-content{
+        margin-right:0px;
+        margin-left:850px;
+        margin-top:-95px;
+    }
+
+    
+
+#box-space li{
+    font-family: Georgia, Times, 'Times New Roman';
+    padding:12px 10px;
+    text-align:center;
+    list-style:none;
+    margin-left:-40px;
+}
+#box-space ul  li a{
+    text-decoration: none;
+    margin-top:100px;
+    color:white;
+
+
+
+}
+#box-space li:hover{
+    background-color:lightblue;;
+    color:darkred;
+   
+    
+
+}
+
+header{
+    margin-left:325px;
+    margin-top:-600px;
+}
+
+.search{
+    margin-top:-10px;
+}
+
+
+#table1{
+    border:1px solid black;
+}
+
+.col{
+    border:1px solid black; 
+}
+
+#fsearch{
+    margin-left:-600px;
+}
+
+.user-field{
+    margin-left:602.3px;
+    margin-top:-41px;
+    height: 40px;
+    background-color:white;
+
+}
+
+
+.user-field a{
+    text-decoration: none;
+}
+
+
+
+.textbox{
+    height:40px;
+    width:1150px;
+    margin-left:5px;
+    text-align: center;
+}
+
+.textarea{
+    margin-left:5px;
+    margin-top:50px;
+   width:1150px;
+   height:300px;
+   text-align:center;
+   font-size:20px;
+
+}
+
+
+#cp{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:150px;
+    margin-left:800px;
+    
+}

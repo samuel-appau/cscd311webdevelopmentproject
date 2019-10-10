@@ -1,0 +1,100 @@
+<html>
+
+<head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+
+
+<body>
+
+ <form  method="POST" id="myform">
+    <input type="text" placeholder="Enter NAME"  id="text-box" name="studname"/>
+    <input type="text" placeholder="Enter STUDENT ID" id="text-box" name="studID"/>
+    <input type="text" placeholder="Enter COURSE" id="text-box2" name="studCourse"/>
+    <select name="HALL" id="HALL" placeholder="SELECT HALL">
+        <option value="" >SELECT YOUR HALL</option>
+        <option value="AKUAF-H" >AKUAFO HALL</option>
+        <option value="LEGON-H">LEGON HALL</option>
+        <option value="SARBAH-H">SARBAH HALL</option>
+        <option value="COMM-H">COMMONWEALTH HALL</option>
+        <option value="ELI-H">ELIZABETH SEY HALL</option>
+        <option value="JEAN-H">JEAN NELSON HALL</option>
+        <option value="JAMES-H">JAMES TOPP  NELSON YANKAH HALL</option>
+        <option value="Volta-H">VOLTA HALL</option>
+      
+    </select> 
+ 
+    <select name="room" id="combo">
+        <option value="">SELECT YOUR ROOM</option>
+         <option value="room1">R001</option>
+         <option value="room2">R002</option>
+         <option value="room3">R003</option>
+         <option value="room4">R004</option>
+         <option value="room5">R005</option>
+         <option value="room6">R006</option>
+         <option value="room7">R007</option>
+         <option value="room8">R008</option>
+         <option value="room9">R009</option>
+         <option value="room10">R010</option>
+         <option value="room11">R011</option>
+         <option value="room12">R012</option>
+         <option value="room13">R013</option>
+         <option value="room14">R014</option>
+         <option value="room15">R015</option>   
+    </select>
+  
+
+    <select name="gender" id="combo1">
+            <option value="">SELECT YOUR GENDER</option>
+             <option value="MALE">MALE</option>
+             <option value="FEMALE">FEMALE</option>
+
+   </select>
+  
+   <select name="LEVEL" id="combo2">
+        <option value="">SELECT YOUR LEVEL</option>
+         <option value="100">100</option>
+         <option value="200">200</option>
+         <option value="300">300</option>
+         <option value="400">400</option>
+
+</select>
+ 
+<select name="Campus" id="combo2">
+        <option value="">SELECT CAMPUS</option>
+         <option value="MAIN CAMPUS">MAIN CAMPUS</option>
+         <option value="CITY CAMPUS">ACCRA CITY CAMPUS</option>
+         <option value="DISTANCE EDUCATION">DISTANCE EDUCATION</option>
+        
+
+</select>
+
+<button  id="save"  type="submit" >SAVE</button>
+
+<button  id="display"  type="submit">DISPLAY</button>
+ 
+
+ </form>   
+
+
+ <ul>
+  <% for (let i=0; i<information.length; i++){ %>
+      <li> <%=information[i].info %> </li>
+
+      <% } %>
+
+
+ </ul>
+
+</body>
+
+
+
+<footer id="footer"> 
+        <div id="cp">
+           <strong> &copy;2019 Appau Samuel</strong>
+       </div>
+      </footer>
+      
+</html>
