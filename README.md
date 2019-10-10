@@ -1,5 +1,5 @@
 To Logon on to the System
-1.Firstly,open the url("localhost://3000/student")
+Firstly,open the url("localhost://3000/student")
 1.You will need STUDENT ID==10677819 and PIN==12345
 2.After loging in, you  will then see a dashboard on the left pane of the webpage
 3.Click on Hall registration to open the registration page.
